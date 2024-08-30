@@ -14,8 +14,8 @@ import org.mockito.junit.jupiter.MockitoExtension;
 
 // Com o Mockito os testes ja ficam interessantes
 // Consigo utilizar a anotação @Mock para instanciar um `dublê` para ser utilizado
-// Com isso preciso falar que essa classe pode ser injetada pelos mocos, com a anotação @InjectMocks
-// Como os Mocks são apenas dublês, precisamos dizer a eles o que eles precisam fazer, como eles devem agir e o que devem retornar.
+// Com isso preciso falar que essa classe pode ser injetada pelos mocks, com a anotação @InjectMocks
+// Como os Mocks são apenas dublês, precisamos dizer a eles o que precisam fazer, como devem agir e o que devem retornar.
 // exemplo: .willReturn(pet), estou dizendo para o duble retornar uma instância de pet que também é dublê 
 // também acesso o metodo do pet e digo que ele precisa me retornar true ou false, dependendo do resultado que eu quiser testar
 
